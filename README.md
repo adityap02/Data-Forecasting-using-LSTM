@@ -22,11 +22,11 @@ pip install Flask numpy matplotlib pandas scikit-learn tensorflow pandas-datarea
 ### Usage
 1. Run the Flask application:
    ```bash
-   python <filename>.py
+   python main.py
    ```
    Replace `<filename>` with the name of the Python script containing the provided code.
 
-2. Open your web browser and go to `http://127.0.0.1:5000/my/<ticker>`, replacing `<ticker>` with the stock symbol you want to analyze.
+2. Open your web browser and go to `http://127.0.0.1:5000/my/<ticker>`, replacing `<ticker>` with the stock symbol you want to analyze.For demonstration, i have attached a sample model trained for Tesla Stock (TSLA) : TSLA.h5 and twitter tweets texts in TSLA.csv File.  
 
 3. The web page will display the predicted stock price for the next day and sentiment analysis results for related tweets.
 
